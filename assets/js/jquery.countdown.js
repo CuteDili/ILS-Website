@@ -37,13 +37,14 @@
 			}
 		}, options);
 
+		// Time goes here.Adjust the count here - Dilini
 		//If start time is not set, set it to current time.
 		if(settings.start_time == null) dwcd_start_time = new Date();
-		else dwcd_start_time = new Date(settings.start_time);
+		else dwcd_start_time = new Date("June 08, 2017 08:30:00");
 
 		//If end time is not set(silly), set it to some time tomorrow.
 		if(settings.end_time == null) dwcd_end_time = new Date(new Date() + 25 * 60 * 60 * 1000);
-		else dwcd_end_time = new Date(settings.end_time);
+		else dwcd_end_time = new Date("Oct 07, 2017 08:30:00");
 
 
 		//Check each countdown unit if it is set to display and create html element to display them.
