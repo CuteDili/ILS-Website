@@ -1736,12 +1736,14 @@ footer .footer-body .logo {
   text-align: center;
 }
 footer .footer-body .logo img {
-  max-width: 150px !important;
+  /* max-width: 150px !important; */
+  max-width: 250px !important;
   margin: auto;
   margin-bottom: 30px;
   display: initial;
   padding: 15px;
-  background-color: #B7B7B7;
+  /* background-color: #B7B7B7; */
+  background-color: transparent;
 }
 footer .footer-body .copyright p .fa {
   opacity: 0.6;
