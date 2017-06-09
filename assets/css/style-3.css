@@ -845,17 +845,20 @@ h3 {
   transition: all 0.4s ease-out;
 }
 .header-nav-2 .navbar-header a img {
-  height: 55px;
+  height: 100px;
+  /* height: 55px; */
   margin: auto;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   -ms-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  padding: 13px;
+  padding: 2px;
+  /* padding: 2px; */
 }
 .header-nav-2 .navbar-header a span {
-  padding: 58px 10px 10px 10px;
+  /* padding: 58px 10px 10px 10px; */
+  padding: 40px 10px 10px 10px;
   border-radius: 0px 0px 0px 0px;
   border-width: 1px;
   border-style: solid;
@@ -969,7 +972,7 @@ h3 {
  * ==========================
  */
 .header-background {
-  background: url('../images/style-3-bg.jpg');
+  background: url('../images/conference/thumbRNS-MORMON-WOMEN092914a.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

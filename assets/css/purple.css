@@ -673,7 +673,7 @@ footer {
   background-color: #ffffff;
 }
 .header-nav-2 .navbar-header a img {
-  background-color: #914891 !important;
+  background-color: transparent !important;
 }
 .header-nav-2 .navbar-header a span {
   border-color: transparent;
